@@ -5,7 +5,7 @@
 
 ## Principais comandos
 
-# BRANCHES:
+### BRANCHES:
 
 ```bash
 $ git checkout [-b | -a | -c] <arguments>
@@ -30,7 +30,7 @@ $ git push <remote> :"<branch>"
 
 → É possível utilizar referências com a opção ~n, sendo n um inteiro qualquer. Retrocedendo n commits da branch atual.
 
-# TAGS:
+### TAGS:
 
 - Tags anotadas:
 
@@ -56,7 +56,7 @@ $ git push --tags
 
 → `-d` para deletar uma tag.
 
-# STATUS:
+### STATUS:
 
 ```bash
 $ git status
@@ -86,7 +86,7 @@ $ git clean <file> [-f | -n]
 
 → `-n` mostra todos os arquivos que serão apagados e pedirá confirmação.
 
-# REVERT | RESET:
+### REVERT | RESET:
 
 ```bash
 $ git revert <commit> [--no-edit]
@@ -116,7 +116,7 @@ $ git checkout <hash>
 
 → Trazemos a branch do commit de volta
 
-# MERGE:
+### MERGE:
 
 ```bash
 git merge [--no-ff]
@@ -124,7 +124,7 @@ git merge [--no-ff]
 
 → `—no-ff` indica para o git a não utilizar o fast forward.
 
-\# FETCH:
+### FETCH:
 
 ```bash
 $ git fetch
@@ -132,7 +132,7 @@ $ git fetch
 
 → O fetch fará download do conteúdo remoto, ma não atualizará o estado de funcionamento do repositório local.
 
-# PULL:
+### PULL:
 
 ```bash
 $ git pull
@@ -140,7 +140,7 @@ $ git pull
 
 → Baixa alterações do repositório remoto e mescla com sua área de trabalho
 
-# FETCH x PULL:
+### FETCH x PULL:
 
 → O fetch irá baixar os git objects sem afetar o código local
 
